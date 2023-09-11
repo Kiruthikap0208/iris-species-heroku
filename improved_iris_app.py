@@ -89,5 +89,5 @@ if st.sidebar.button("Predict"):
     img_virginica = Image.open("iris_virginica.png")
     st.image(img_virginica)
   elif species_type=="Iris-versicolor":
-    img_versicolor = Image.open("xiris_versicolor.png") 
+    img_versicolor = Image.open("iris_versicolor.png") 
     st.image(img_versicolor)
